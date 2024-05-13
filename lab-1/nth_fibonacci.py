@@ -13,6 +13,6 @@ print(f"{n}th fibonacci number: {fibonacci(n)}")
 
 
 """
-Time Complexity:
-O(2^n)
+Time Complexity: O(2^n)
+Space Complexity: O(n)
 """

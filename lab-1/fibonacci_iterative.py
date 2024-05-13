@@ -1,6 +1,5 @@
-def factorial(n):
-    first = 0 
-    second = 1
+def generate_fibonacci(n):
+    first, second = 1, 1
     
     if n >= 1:
         print(f"First {n} series: {first}", end="")
@@ -17,10 +16,11 @@ def factorial(n):
     print()
 
 
-factorial(20)
+num = 10
+generate_fibonacci(num)
 
 
 """
-Time Complexity:
-O(n)
+Time Complexity: O(n)
+Space Complexity: O(1)
 """
