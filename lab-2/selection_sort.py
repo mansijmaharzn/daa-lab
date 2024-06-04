@@ -11,9 +11,9 @@ def selection_sort(a):
         if min != i:
             a[i], a[min] = a[min], a[i]
             swapped_steps += 1
-            print(f"Swapped: {a}")
-        
-        print(f"Pass {i}: {a}")
+            print(f"Pass {i} (Swapped): {a}")
+        else:
+            print(f"Pass {i}: {a}")
 
         total_steps += 1
 
