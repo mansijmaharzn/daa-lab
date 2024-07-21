@@ -8,9 +8,9 @@ a = [
 max_nums = []
 
 
-for i in range(3):
-    max = a[i][0]
-    for j in range(3):
+for j in range(3):
+    max = a[j][0]
+    for i in range(3):
         if a[i][j] > max:
             max = a[i][j]
     max_nums.append(max)
